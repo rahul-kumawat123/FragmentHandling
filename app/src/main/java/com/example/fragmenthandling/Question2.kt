@@ -7,6 +7,17 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 
+/**
+ * Observe Lifecycle of Fragment with activity while using Add, Replace, hide, show, remove
+ * Associated files :-
+        * Fragment1
+        * Fragment2
+        * question2.xml
+        * f_frag1.xml
+        * f_frag2.xml
+ */
+
+
 class Question2: AppCompatActivity() {
     private lateinit var fragmentManager: FragmentManager
     private lateinit var transaction: FragmentTransaction

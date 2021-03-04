@@ -6,6 +6,18 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentTransaction
 
+
+/**
+ *  Dialog fragment, Preference Fragment
+ *  Associated files :-
+        * DialogFragment
+        * PrefFragment
+        * f_dialog.xml
+        * preferences.xml
+        * question3.xml
+ */
+
+
 class Question3: AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
